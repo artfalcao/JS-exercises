@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day2.css">
+    <title>7DaysOfCOde - Dia 2</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>7DaysOfCOde - Dia 2</h1>
+        </header>
+        <main>
+            <div class="dados">
+                <label for="nome">Qual o seu NOME?</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome ...">
+            </div>
+
+            <div class="dados">
+                <label for="idade">Qual a sua IDADE?</label>
+                <input type="number" name="idade" id="idade" placeholder="Digite sua Idade...">
+            </div>
+            
+            <div class="dados">
+                <label for="linguagem">Qual LINGUAGEM DE PROGRAMAÇÃO você está aprendendo?</label>
+                <input type="text" name="linguagem" id="linguagem" placeholder="Digite a Linguagem...">
+            </div>
+
+            <input type="button" value="Enviar" id="btn" onclick="enviarDados()">
+        </main>
+
+        <div id="div-resposta">
+            <p id="resposta"></p>
+        </div>
+    </div>
+    <script src="day2.js"></script>
+</body>
+</html>

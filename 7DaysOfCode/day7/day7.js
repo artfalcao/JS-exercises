@@ -1,0 +1,1 @@
+//OBJETIVO AULA 7: Criar uma calculadora, criando funções para cada operação matemática. O usuário escolhe qual operação quer e depois digitas os números e o programa exibe na tela o resultado.

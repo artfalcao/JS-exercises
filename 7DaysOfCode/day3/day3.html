@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day3.css">
+    <title>7DaysOfCOde - Day 2</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>7DaysOfCOde</h1>
+        </header>
+        <main>
+            <div class="perguntas">
+                <p id="pergunta-atual">Qual área você deseja seguir?
+                    <input type="radio" name="area" id="front" checked>
+                    <label for="front">Frontend</label>
+                    <input type="radio" name="area" id="back">
+                    <label for="back">Backend</label>
+                </p>    
+                <input type="button" value="Continuar" onclick="verificar()">
+            </div>
+        </main>
+
+        <div id="div-resposta">
+            <p id="resposta"></p>
+        </div>
+    </div>
+    <script src="day3.js"></script>
+</body>
+</html>
